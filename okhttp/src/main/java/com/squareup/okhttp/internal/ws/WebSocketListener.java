@@ -20,6 +20,7 @@ import okio.BufferedSource;
 
 import static com.squareup.okhttp.internal.ws.WebSocket.PayloadType;
 
+// TODO move to public API!
 /** Listener for server-initiated messages on a connected {@link WebSocket}. */
 public interface WebSocketListener {
   /**
